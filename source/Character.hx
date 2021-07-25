@@ -33,6 +33,21 @@ class Character extends FlxSprite
 
 		switch (curCharacter)
 		{
+			case 'cassette-girl':
+				tex = Paths.getSparrowAtlas('Cassette_Girl_Assets','shared',true);
+				frames = tex;
+				animation.addByPrefix('idle', "CG Idle", 24);
+				animation.addByPrefix('singUP', 'CG Up', 24, false);
+				animation.addByPrefix('singDOWN', 'CG Down', 24, false);
+				animation.addByPrefix('singLEFT', 'CG Left', 24, false);
+				animation.addByPrefix('singRIGHT', 'CG Right', 24, false);
+				loadOffsetFile(curCharacter);
+
+				playAnim('idle');
+
+				flipX = true;
+
+				
 			case 'gf':
 				// GIRLFRIEND CODE
 				tex = Paths.getSparrowAtlas('GF_assets','shared',true);
