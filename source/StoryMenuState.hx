@@ -34,7 +34,7 @@ class StoryMenuState extends MusicBeatState
 			['Satin Panties', "High", "Milf"],
 			['Cocoa', 'Eggnog', 'Winter Horrorland'],
 			['Senpai', 'Roses', 'Thorns'],
-			['CGPlaceholder1', 'CGPlaceholder2', 'CGPlaceholder3']
+			['Cassette1', 'Cassette2', 'Cassette3']
 		];
 	}
 	var curDifficulty:Int = 1;
