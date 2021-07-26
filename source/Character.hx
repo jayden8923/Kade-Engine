@@ -36,11 +36,11 @@ class Character extends FlxSprite
 			case 'cassette-girl':
 				tex = Paths.getSparrowAtlas('Cassette_Girl_Assets','shared',true);
 				frames = tex;
-				animation.addByPrefix('idle', "idle", 24);
-				animation.addByPrefix('singUP', 'up', 24, false);
-				animation.addByPrefix('singDOWN', 'DOWN', 24, false);
-				animation.addByPrefix('singLEFT', 'left', 24, false);
-				animation.addByPrefix('singRIGHT', 'right', 24, false);
+				animation.addByPrefix('idle', "idle", 14);
+				animation.addByPrefix('singUP', 'up', 14, false);
+				animation.addByPrefix('singDOWN', 'DOWN', 14, false);
+				animation.addByPrefix('singLEFT', 'left', 14, false);
+				animation.addByPrefix('singRIGHT', 'right', 14, false);
 				loadOffsetFile(curCharacter);
 
 				playAnim('idle');
