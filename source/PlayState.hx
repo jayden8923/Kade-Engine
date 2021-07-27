@@ -516,9 +516,9 @@ class PlayState extends MusicBeatState
 			{
 				case 'cassetteStage':
 					{
-						defaultCamZoom = 0.90
-						curStage = 'cassetteStage'
-						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic('StarsBG')
+						defaultCamZoom = 0.90;
+						curStage = 'cassetteStage';
+						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic('StarsBG');
 						bg.loadGraphic('StageBG');
 						bg.loadGraphic('TopBG');
 						bg.antialiasing = true;
