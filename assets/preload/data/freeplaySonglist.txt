@@ -17,6 +17,6 @@ Winter Horrorland:monster-christmas:5
 Senpai:senpai:6
 Roses:senpai:6
 Thorns:spirit:6
-Cassette1:cassette-girl:7
-Cassette2:assette-girl:7
-Cassette3:assette-girl:7
+Cassette1:senpai:7
+Cassette2:senpai:7
+Cassette3:spirit:7
