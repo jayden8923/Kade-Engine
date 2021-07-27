@@ -519,8 +519,13 @@ class PlayState extends MusicBeatState
 						defaultCamZoom = 0.90
 						curStage = 'cassetteStage'
 						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic('StarsBG')
-						bg.loadGraphic('StageBG')
-						bg.loadGraphic('TopBG')
+						bg.loadGraphic('StageBG');
+						bg.loadGraphic('TopBG');
+						bg.antialiasing = true;
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.active = false;
+						
+						add(bg);
 					}
 				case 'halloween':
 					{
