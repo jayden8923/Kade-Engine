@@ -476,6 +476,8 @@ class PlayState extends MusicBeatState
 		{
 			switch (storyWeek)
 			{
+				case 7:
+					stageCheck = 'cassetteStage';
 				case 2:
 					stageCheck = 'halloween';
 				case 3:
