@@ -514,6 +514,14 @@ class PlayState extends MusicBeatState
 		{
 			switch (stageCheck)
 			{
+				case 'cassetteStage':
+					{
+						defaultCamZoom = 0.90
+						curStage = 'cassetteStage'
+						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic('StarsBG')
+						bg.loadGraphic('StageBG')
+						bg.loadGraphic('TopBG')
+					}
 				case 'halloween':
 					{
 						curStage = 'spooky';
